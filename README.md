@@ -18,9 +18,29 @@ Or install it yourself as:
 
     $ gem install sc1602_for_bbb
 
-## Usage
+## Example
 
-TODO: Write usage instructions here
+```
+#!/usr/bin/env ruby
+require 'sc1602_for_bbb'
+
+ports = {
+  RS: :P8_8,
+  EN: :P8_10,
+  D4: :P8_18,
+  D5: :P8_16,
+  D6: :P8_14,
+  D7: :P8_12
+}
+lcd = SC1602ForBBB::LCD.new(ports)
+
+lcd.write("hello, world")
+lcd.set_cursor(1, 0)
+lcd.write(Time.now.to_s)
+
+sleep 1
+lcd.clear
+```
 
 ## Development
 
