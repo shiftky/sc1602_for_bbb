@@ -1,5 +1,5 @@
 require "sc1602_for_bbb/version"
+require "sc1602_for_bbb/lcd"
 
-module Sc1602ForBbb
-  # Your code goes here...
+module SC1602ForBBB
 end

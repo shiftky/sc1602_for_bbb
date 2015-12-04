@@ -5,7 +5,7 @@ require 'sc1602_for_bbb/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "sc1602_for_bbb"
-  spec.version       = Sc1602ForBbb::VERSION
+  spec.version       = SC1602ForBBB::VERSION
   spec.authors       = ["shiftky"]
   spec.email         = ["shiftky@gmail.com"]
 
