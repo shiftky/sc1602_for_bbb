@@ -1,5 +1,7 @@
 # sc1602_for_bbb
 
+[![Gem Version](https://badge.fury.io/rb/sc1602_for_bbb.svg)](https://badge.fury.io/rb/sc1602_for_bbb)
+
 SC1602 character LCD display library for [BeagleBone Black](http://beagleboard.org/BLACK)
 
 ## Installation
